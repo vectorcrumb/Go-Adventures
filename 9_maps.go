@@ -17,7 +17,7 @@ func main() {
 	// Call delete(map, key) to remove a pair
 	delete(m, "k2")
 	fmt.Println("map:", m)
-	// Receive a second value to check if the key pair existed
+	// Receive a second value to check2 if the key pair existed
 	// _ is a blank identifier (the compiler won't complain if
 	// it isn't being used)
 	_, prs := m["k2"]

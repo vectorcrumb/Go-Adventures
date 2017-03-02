@@ -12,7 +12,7 @@ func main() {
 	ints := []int{7, 2, 4}
 	sort.Ints(ints)
 	fmt.Println("Ints:", ints)
-	// Finally, we can check if a slice is already sorted
+	// Finally, we can check2 if a slice is already sorted
 	s := sort.IntsAreSorted(ints)
 	fmt.Println("Sorted:", s)
 }

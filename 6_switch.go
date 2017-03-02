@@ -22,7 +22,7 @@ func main()  {
 	default:
 		fmt.Println("It's a weekday")
 	}
-	// A switch statement may lack the variable to check. Akin to if/else
+	// A switch statement may lack the variable to check2. Akin to if/else
 	t := time.Now()
 	switch {
 	case t.Hour() < 12:

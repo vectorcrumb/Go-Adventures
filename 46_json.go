@@ -46,7 +46,7 @@ func main() {
 	res2B, _ := json.Marshal(res2D)
 	fmt.Println(string(res2B))
 	// To decode JSON, we create a sample string for the example and later
-	// a map to store the information. We also then check for errors.
+	// a map to store the information. We also then check2 for errors.
 	byt := []byte(`{"num":6.13, "strs":["a", "b"]}`)
 	var dat map[string]interface{}
 	if err := json.Unmarshal(byt, &dat); err != nil {
